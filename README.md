@@ -1,1 +1,1 @@
-# simply-portfolio
+# simple-portfolio
