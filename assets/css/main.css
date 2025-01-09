@@ -2923,6 +2923,9 @@ input, select, textarea {
 		position: relative;
 		text-align: center;
 		height: 100vh;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
 
 		#header a {
@@ -3415,6 +3418,7 @@ input, select, textarea {
 
 			#header {
 				padding: 4em 3em 4em 3em ;
+				
 			}
 
 				#header .actions {
@@ -3518,6 +3522,7 @@ input, select, textarea {
 			#header-img {
 				max-width: 5rem;
 			}
+			
 		}
 
 	.custom-vid{
