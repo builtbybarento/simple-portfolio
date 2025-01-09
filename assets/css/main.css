@@ -2922,6 +2922,7 @@ input, select, textarea {
 		overflow: hidden;
 		position: relative;
 		text-align: center;
+		height: 100vh;
 	}
 
 		#header a {
