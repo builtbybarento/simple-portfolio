@@ -243,8 +243,7 @@ input, select, textarea {
 
 	.container {
 		margin: 0 auto;
-		max-width: calc(100% - 4em);
-		width: 60em;
+		max-width: calc(100% - 4rem);
 	}
 
 		.container.xsmall {
@@ -2914,10 +2913,10 @@ input, select, textarea {
 
 	#header {
 		padding: 9em 0 9em 0 ;
-		background-color: #4686a0;
+		background-color: #1a3263;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
+		background-image: url("images/overlay2.png"), url("images/overlay3.svg"),  linear-gradient(45deg, #1a3263 5%, #21a467 30%, #1d2c59);
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		overflow: hidden;
@@ -3113,7 +3112,7 @@ input, select, textarea {
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%);
+		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #1a3263, #21a467 50%, #1d2c59 95%);
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		text-align: center;
@@ -3509,4 +3508,19 @@ input, select, textarea {
 				padding: 2em 1em 2em 1em ;
 			}
 
+	}
+
+	#header-img {
+		max-width: 15rem;
+	}
+		@media screen and (max-width: 500px) {
+			#header-img {
+				max-width: 5rem;
+			}
+		}
+
+	.custom-vid{
+		width: 100%; /* Adjust container size as needed */
+		height: 100%; /* Example height */
+		overflow: hidden;
 	}
