@@ -3537,11 +3537,15 @@ input, select, textarea {
 	  height: auto;
     position: relative;
 		margin: auto;
+		padding: 1rem;
 		margin-bottom: 1rem;
 		
 }	
 	@media all and (max-width:500px){
 		#myCanvasContainer {
+			width: 300px;
+		}
+		#myCanvas {
 			width: 300px;
 		}
 	}
