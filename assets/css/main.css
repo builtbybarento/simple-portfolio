@@ -3533,7 +3533,7 @@ input, select, textarea {
 
 	#myCanvasContainer {
 		width: 90%;
-		max-width: 1000px;
+		max-width: 700px;
 	  height: auto;
     position: relative;
 		margin: auto;
