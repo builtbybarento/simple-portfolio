@@ -3751,14 +3751,41 @@ body.is-preload #header:after {
 
 /* Fade-in Animation */
 
-.hidden {
-  opacity: 0;  
+.softfadeup {
+  opacity: 0.2;  
   filter: blur(10px);
   transform: translateY(50px); /* Adjusted for smoother animation */
-  transition: opacity 2s ease, transform 2s ease, filter 2s ease;
+  transition: opacity 1s ease, transform 0.5s ease, filter 1s ease;
 }
-.show {
+.showup {
   opacity: 1;
   filter: blur(0);
   transform: translateY(0);
+}
+.faderight {
+  opacity: 0;  
+  filter: blur(10px);
+  transform: translateX(-50%); /* Adjusted for smoother animation */
+  transition: all 3s;
+			
+}
+.faderight2 {
+  opacity: 0;  
+  filter: blur(10px);
+  transform: translateX(-70%); /* Adjusted for smoother animation */
+  transition: all 4s;
+
+}
+.faderight3 {
+  opacity: 0;  
+  filter: blur(10px);
+  transform: translateX(-90%); /* Adjusted for smoother animation */
+  transition: all 5s;
+
+}
+.showright {
+	opacity: 1;
+  filter: blur(0);
+  transform: translateX(0%);
+
 }

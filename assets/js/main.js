@@ -31,17 +31,62 @@
 
 })(jQuery);
 
-//Fade in
+//Fade in from below
 const observer = new IntersectionObserver((entries) => {
 	entries.forEach((entry) => {
 		if (entry.isIntersecting) {
-			entry.target.classList.add('show');
+			entry.target.classList.add('showup');
 		} else {
-			entry.target.classList.remove('show');
+			entry.target.classList.remove('showup');
 		}
 	});
 });
 
-const hiddenElements = document.querySelectorAll('.hidden');
+// Updated selector to target `.softfadeup` instead of `.hidden`
+const softFadeUp = document.querySelectorAll('.softfadeup');
 
-hiddenElements.forEach((el) => observer.observe(el));
+softFadeUp.forEach((el) => observer.observe(el));
+
+
+//Fade in from left
+const observer2 = new IntersectionObserver((entries) => {
+	entries.forEach((entry) => {
+		console.log(entry.target, entry.isIntersecting); // Debugging
+		if (entry.isIntersecting) {
+			entry.target.classList.add('showright');
+		} else {
+			entry.target.classList.remove('showright');
+		}
+	});
+});
+
+// Update the selector to target `.faderight`
+const fadeRight = document.querySelectorAll('.faderight');
+
+fadeRight.forEach((el) => observer2.observe(el));
+
+// Observer for `.faderight2`
+const observer3 = new IntersectionObserver((entries) => {
+	entries.forEach((entry) => {
+		if (entry.isIntersecting) {
+			entry.target.classList.add('showright');
+		} else {
+			entry.target.classList.remove('showright');
+		}
+	});
+});
+const fadeRight2 = document.querySelectorAll('.faderight2');
+fadeRight2.forEach((el) => observer3.observe(el));
+
+// Observer for `.faderight3`
+const observer4 = new IntersectionObserver((entries) => {
+	entries.forEach((entry) => {
+		if (entry.isIntersecting) {
+			entry.target.classList.add('showright');
+		} else {
+			entry.target.classList.remove('showright');
+		}
+	});
+});
+const fadeRight3 = document.querySelectorAll('.faderight3');
+fadeRight3.forEach((el) => observer4.observe(el));
