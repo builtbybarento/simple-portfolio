@@ -3746,3 +3746,19 @@ body.is-preload #header:after {
 .visible {
 	/* border: 1px, red, solid; */
 }
+
+
+
+/* Fade-in Animation */
+
+.hidden {
+  opacity: 0;  
+  filter: blur(10px);
+  transform: translateY(50px); /* Adjusted for smoother animation */
+  transition: opacity 2s ease, transform 2s ease, filter 2s ease;
+}
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0);
+}
