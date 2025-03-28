@@ -3163,7 +3163,7 @@ button:disabled,
 	-moz-transition: -moz-transform 1.5s ease, opacity 2s ease;
 	-webkit-transition: -webkit-transform 1.5s ease, opacity 2s ease;
 	-ms-transition: -ms-transform 1.5s ease, opacity 2s ease;
-	transition: transform 1.5s ease, opacity 2s ease;
+	transition: transform 3.5s ease, opacity 2s ease;
 	-moz-transition-delay: 0.25s;
 	-webkit-transition-delay: 0.25s;
 	-ms-transition-delay: 0.25s;
@@ -3178,14 +3178,14 @@ button:disabled,
 }
 
 #header .inner .actions {
-	-moz-transition: -moz-transform 1.25s ease;
+	-moz-transition: -moz-transform 2.25s ease;
 	-webkit-transition: -webkit-transform 1.25s ease;
 	-ms-transition: -ms-transform 1.25s ease;
-	transition: transform 1.25s ease;
+	transition: transform 3s ease-out;
 	-moz-transition-delay: 1s;
 	-webkit-transition-delay: 1s;
 	-ms-transition-delay: 1s;
-	transition-delay: 1s;
+	transition-delay: 0s;
 	-moz-transform: translateY(0);
 	-webkit-transform: translateY(0);
 	-ms-transform: translateY(0);
@@ -3217,10 +3217,10 @@ body.is-preload #header .inner {
 }
 
 body.is-preload #header .inner .actions {
-	-moz-transform: translateY(30em);
-	-webkit-transform: translateY(30em);
-	-ms-transform: translateY(30em);
-	transform: translateY(30em);
+	-moz-transform: translateY(15em);
+	-webkit-transform: translateY(15em);
+	-ms-transform: translateY(15em);
+	transform: translateY(15em);
 	opacity: 0;
 }
 
