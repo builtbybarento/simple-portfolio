@@ -3668,7 +3668,6 @@ body.is-preload #header:after {
 	max-width: 700px;
 	height: auto;
 	position: relative;
-	margin: auto;
 	padding: 1rem;
 	margin-bottom: 1rem;
 }
@@ -3689,6 +3688,7 @@ body.is-preload #header:after {
 
 #techused {
 	display: flex;
+	justify-content: center;
 }
 #techlist {
 	width: 30%;
