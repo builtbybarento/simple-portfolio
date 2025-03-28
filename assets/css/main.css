@@ -112,6 +112,7 @@ section {
 
 body {
 	line-height: 1;
+	overflow-x: hidden;
 }
 
 ol,
@@ -2096,6 +2097,11 @@ pre code {
 section.special,
 article.special {
 	text-align: center;
+}
+
+section {
+	max-width: 100%;
+	overflow-x: hidden;
 }
 
 header p {
