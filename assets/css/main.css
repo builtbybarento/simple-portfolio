@@ -3689,6 +3689,7 @@ body.is-preload #header:after {
 }
 #techlist > ul {
 	font-size: 2rem;
+	list-style: none;
 	margin: 3rem;
 	padding: 2rem;
 }
@@ -3728,7 +3729,6 @@ body.is-preload #header:after {
 		margin: 0;
 		padding: 0;
 		margin-bottom: 3rem;
-		list-style: none; /* Remove default list styling */
 		font-size: 3rem;
 		display: flex; /* Enable Flexbox */
 		flex-wrap: wrap; /* Allow items to wrap to the next row */
