@@ -3175,6 +3175,7 @@ button:disabled,
 	opacity: 1;
 	position: relative;
 	z-index: 1;
+	user-select: none;
 }
 
 #header .inner .actions {
@@ -3751,16 +3752,12 @@ body.is-preload #header:after {
 
 }
 
-.visible {
-	/* border: 1px, red, solid; */
-}
-
 /* Fade-in Animation */
 
 .softfadeup {
 	opacity: 0.2;
 	filter: blur(10px);
-	transform: translateY(50px); /* Adjusted for smoother animation */
+	transform: translateY(50px); 
 	transition: opacity 1s ease, transform 0.5s ease, filter 1s ease;
 }
 .showup {
@@ -3771,25 +3768,25 @@ body.is-preload #header:after {
 .faderight {
 	opacity: 0;
 	filter: blur(5px);
-	transform: translateX(-50%); /* Adjusted for smoother animation */
+	transform: translateX(-50%); 
 	transition: all 2s;
 }
 .faderight2 {
 	opacity: 0;
-	filter: blur(10px);
-	transform: translateX(-70%); /* Adjusted for smoother animation */
+	filter: blur(5px);
+	transform: translateX(-70%); 
 	transition: all 3.5s;
 }
 .faderight3 {
 	opacity: 0;
-	filter: blur(10px);
-	transform: translateX(-90%); /* Adjusted for smoother animation */
+	filter: blur(5px);
+	transform: translateX(-90%); 
 	transition: all 5s;
 }
 .fadeleft {
 	opacity: 0;
-	filter: blur(7px);
-	transform: translateX(+90%); /* Adjusted for smoother animation */
+	filter: blur(5px);
+	transform: translateX(+90%); 
 	transition: all 2s;
 }
 .showright {
