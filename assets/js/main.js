@@ -90,3 +90,20 @@ const observer4 = new IntersectionObserver((entries) => {
 });
 const fadeRight3 = document.querySelectorAll('.faderight3');
 fadeRight3.forEach((el) => observer4.observe(el));
+
+//Fade in from right
+const observer5 = new IntersectionObserver((entries) => {
+	entries.forEach((entry) => {
+		console.log(entry.target, entry.isIntersecting); // Debugging
+		if (entry.isIntersecting) {
+			entry.target.classList.add('showright');
+		} else {
+			entry.target.classList.remove('showright');
+		}
+	});
+});
+
+// Update the selector to target `.faderight`
+const fadeLeft = document.querySelectorAll('.fadeleft');
+
+fadeLeft.forEach((el) => observer5.observe(el));

@@ -3766,14 +3766,14 @@ body.is-preload #header:after {
   opacity: 0;  
   filter: blur(10px);
   transform: translateX(-50%); /* Adjusted for smoother animation */
-  transition: all 3s;
+  transition: all 2s;
 			
 }
 .faderight2 {
   opacity: 0;  
   filter: blur(10px);
   transform: translateX(-70%); /* Adjusted for smoother animation */
-  transition: all 4s;
+  transition: all 3.5s;
 
 }
 .faderight3 {
@@ -3781,6 +3781,13 @@ body.is-preload #header:after {
   filter: blur(10px);
   transform: translateX(-90%); /* Adjusted for smoother animation */
   transition: all 5s;
+
+}
+.fadeleft {
+  opacity: 0;  
+  filter: blur(10px);
+  transform: translateX(+90%); /* Adjusted for smoother animation */
+  transition: all 2s;
 
 }
 .showright {
